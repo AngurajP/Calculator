@@ -1,0 +1,48 @@
+#form {
+    width: 420px;
+    height: 450px;
+    background-color: black;
+    border-radius: 10px;
+}
+.calculator {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 420px;
+    height: 450px;
+}
+h1 {
+    text-align: center;
+}
+.txtbox {
+    width: 360px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: azure;
+    text-align: right;
+}
+input[type = "button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -4px -4px 15px rgba(232, 126, 21, 0.1),2px 2px 5px rgba(239, 227, 11, 0.2);
+    background: transparent;
+    color: antiquewhite;
+    transition: all 0.5s;
+}
+input[type = "button"]:hover {
+    background-color: aliceblue;
+    color: black;
+}
+input[type = "button"]:active{
+    transform: scale(0.8);
+}
+.equal:active{
+    transform: scale(0.8);
+}
+
